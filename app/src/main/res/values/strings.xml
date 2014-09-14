@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Ganraj Astrology</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_availability">AvailabilityActivity</string>
+    <string name="title_activity_about">AboutActivity</string>
+    <string name="about_me">Expect to see purple in many shades including its cousins: purple-black, wine, violet and deep plum.
+        Teen girls will be painting their nails, lining their eyes, and buying t-shirts, jeans and short skirts in these rich colors.
+        Look for graphic plaids and dark floral patterns too, accompanied by lace, reworked denim and leather.</string>
+
+</resources>

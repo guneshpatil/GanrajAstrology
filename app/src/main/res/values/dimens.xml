@@ -1,0 +1,9 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <color name="action_bar">#B81D18</color>
+    <color name="info_title_left">#AB3334</color>
+    <color name="info_title">#331919</color>
+    <color name="info_description">#DDA185</color>
+</resources>
