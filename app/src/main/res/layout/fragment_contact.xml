@@ -1,0 +1,51 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="business.forscherlabs.ganrajastrology.ContactActivity$PlaceholderFragment">
+
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stretchColumns="*"
+        tools:context="business.forscherlabs.ganrajastrology.AboutActivity$PlaceholderFragment">
+
+    <TableRow
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:minHeight="@dimen/abc_action_bar_default_height"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="2px"
+            android:background="@color/info_title"
+            android:text="Location Map"
+            android:textAppearance="@style/label_text"
+            android:gravity="center_vertical"
+            android:paddingLeft="25sp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:weightSum="1">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="200sp"
+            android:text="Map goes here"
+            android:gravity="center"
+            android:textAppearance="@android:style/TextAppearance.Large"
+            android:textColor="#ffffff"
+            style="@style/description_text_background"
+            android:lineSpacingExtra="5sp"
+            android:paddingTop="10sp"
+            android:paddingBottom="10sp"/>
+    </TableRow>
+    </TableLayout>
+
+</RelativeLayout>

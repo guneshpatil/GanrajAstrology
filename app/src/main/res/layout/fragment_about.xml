@@ -9,6 +9,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:stretchColumns="*"
     tools:context="business.forscherlabs.ganrajastrology.AboutActivity$PlaceholderFragment">
 
     <TableRow
@@ -17,36 +18,28 @@
         android:minHeight="@dimen/abc_action_bar_default_height"
         android:layout_gravity="center"
         android:gravity="center"
-        android:weightSum="100">
+        android:weightSum="1">
 
         <TextView
-            android:background="@color/info_title_left"
-            android:layout_width="@dimen/abc_action_bar_default_height"
+            android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_weight="5"
-            android:layout_column="0"/>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginBottom="2px"
             android:background="@color/info_title"
             android:text="Introduction"
             android:textAppearance="@style/label_text"
             android:gravity="center_vertical"
-            android:layout_weight="95"
-            android:paddingLeft="25sp"
-            android:layout_column="1" />
+            android:paddingLeft="25sp"/>
     </TableRow>
 
     <TableRow
         android:layout_width="match_parent"
         android:layout_height="fill_parent"
-        android:weightSum="100">
+        android:weightSum="1">
 
         <TextView
-            android:layout_width="fill_parent"
+            android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_span="3"
             android:text="@string/about_me"
             android:gravity="center_vertical"
             android:paddingLeft="25sp"
@@ -54,8 +47,7 @@
             style="@style/description_text_background"
             android:lineSpacingExtra="5sp"
             android:paddingTop="10sp"
-            android:paddingBottom="10sp"
-            android:layout_weight="100"/>
+            android:paddingBottom="10sp"/>
 
     </TableRow>
 
@@ -65,35 +57,29 @@
         android:minHeight="@dimen/abc_action_bar_default_height"
         android:layout_gravity="center"
         android:gravity="center"
-        android:weightSum="100">
+        android:weightSum="1">
 
         <TextView
-            android:background="@color/info_title_left"
-            android:layout_width="@dimen/abc_action_bar_default_height"
+            android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_weight="5"
-            android:layout_column="0"/>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginBottom="2px"
             android:background="@color/info_title"
             android:text="Services Offered"
             android:textAppearance="@style/label_text"
             android:gravity="center_vertical"
-            android:layout_weight="95"
             android:paddingLeft="25sp"
-            android:layout_column="1" />
+            android:layout_column="0" />
     </TableRow>
 
     <TableRow
-        android:layout_width="match_parent"
+        android:layout_width="0dp"
         android:layout_height="fill_parent"
-        android:weightSum="100">
+        android:weightSum="1">
         <TextView
-            android:layout_width="fill_parent"
+            android:layout_width="0dp"
             android:layout_height="100sp"
-            android:layout_span="3"
+            android:layout_weight="1"
             android:text="Kundli, Pooja, Consulting"
             android:gravity="center"
             android:textAppearance="@android:style/TextAppearance.Large"
@@ -101,54 +87,8 @@
             style="@style/description_text_background"
             android:lineSpacingExtra="5sp"
             android:paddingTop="10sp"
-            android:paddingBottom="10sp"
-            android:layout_weight="100"/>
+            android:paddingBottom="10sp"/>
     </TableRow>
 
-    <TableRow
-        android:layout_width="match_parent"
-        android:layout_height="fill_parent"
-        android:minHeight="@dimen/abc_action_bar_default_height"
-        android:layout_gravity="center"
-        android:gravity="center"
-        android:weightSum="100">
-
-        <TextView
-            android:background="@color/info_title_left"
-            android:layout_width="@dimen/abc_action_bar_default_height"
-            android:layout_height="match_parent"
-            android:layout_weight="5"
-            android:layout_column="0"/>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:background="@color/info_title"
-            android:text="Location Map"
-            android:textAppearance="@style/label_text"
-            android:gravity="center_vertical"
-            android:layout_weight="95"
-            android:paddingLeft="25sp"
-            android:layout_column="1" />
-    </TableRow>
-
-    <TableRow
-        android:layout_width="match_parent"
-        android:layout_height="fill_parent"
-        android:weightSum="100">
-    <TextView
-        android:layout_width="fill_parent"
-        android:layout_height="200sp"
-        android:layout_span="3"
-        android:text="Map goes here"
-        android:gravity="center"
-        android:textAppearance="@android:style/TextAppearance.Large"
-        android:textColor="#ffffff"
-        style="@style/description_text_background"
-        android:lineSpacingExtra="5sp"
-        android:paddingTop="10sp"
-        android:paddingBottom="10sp"
-        android:layout_weight="100"/>
-    </TableRow>
 </TableLayout>
 </ScrollView>

@@ -29,6 +29,15 @@ public class MainFragment extends Fragment {
             }
         });
 
+        Button btn_contact = (Button) rootView.findViewById(R.id.btn_Contact);
+        btn_contact.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent contact_intent = new Intent(getActivity(), ContactActivity.class);
+                startActivity(contact_intent);
+            }
+        });
+
         return rootView;
     }
 
