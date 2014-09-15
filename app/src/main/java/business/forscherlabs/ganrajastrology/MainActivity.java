@@ -16,7 +16,7 @@ public class MainActivity extends ActionBarActivity {
         setContentView(R.layout.activity_main);
 
         ActionBar actionBar = getActionBar();
-        actionBar.setBackgroundDrawable(new ColorDrawable(R.color.action_bar));
+        actionBar.setBackgroundDrawable(new ColorDrawable(R.style.btn_background));
 
         if (savedInstanceState == null) {
             getSupportFragmentManager().beginTransaction()

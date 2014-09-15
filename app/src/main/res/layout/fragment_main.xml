@@ -1,4 +1,19 @@
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout
+    android:id="@+id/relativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/app_bg" />
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
     android:layout_width="match_parent"
@@ -6,9 +21,7 @@
     tools:context=".MainActivity$PlaceholderFragment"
     android:paddingBottom="30sp"
     android:gravity="bottom"
-    android:layout_gravity="center"
-    android:background="#202020">
-
+    android:layout_gravity="center">
 
     <TableLayout
         android:layout_width="match_parent"
@@ -38,7 +51,7 @@
             android:layout_height="match_parent"
             android:layout_margin="5sp"
             android:clickable="true"
-            android:text="Contact Me"
+            android:text="Contact"
             android:id="@+id/tv_ContactMe"
             android:gravity="center"
             android:textAppearance="@style/label_text"
@@ -72,3 +85,4 @@
     </TableLayout>
 
 </LinearLayout>
+</RelativeLayout>
